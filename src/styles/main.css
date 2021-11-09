@@ -16,6 +16,10 @@ body {
   color: var(--color-text);
   transition: background-color 0.3s ease, color 0.3s ease;
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  padding: 5vmin;
+  display: grid;
+  align-content: center;
+  font-weight: bold;
 }
 
 html,
@@ -23,6 +27,7 @@ body,
 #__next {
   height: 100%;
   width: 100%;
+  overflow: hidden;
 }
 
 @import 'reset.css';
